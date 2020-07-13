@@ -29,8 +29,8 @@ In `App.js`, let's add in the following:
 import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css'
-import HomePage from './pages/HomePage.js'
-import WinePage from './pages/WinePage.js'
+import HomePage from './src/pages/HomePage.js'
+import WinePage from './src/pages/WinePage.js'
 
 class App extends Component {
   render() {
@@ -220,9 +220,9 @@ Lastly, let's create a form to create a new wine. First in `App.js`, we need to 
 import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css'
-import HomePage from './pages/HomePage.js'
-import WinePage from './pages/WinePage.js'
-import AddWinePage from './pages/AddWinePage.js'
+import HomePage from './src/pages/HomePage.js'
+import WinePage from './src/pages/WinePage.js'
+import AddWinePage from './src/pages/AddWinePage.js'
 
 class App extends Component {
   render() {
